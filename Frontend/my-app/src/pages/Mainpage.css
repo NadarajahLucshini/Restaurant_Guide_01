@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('../world.jpg'); /* Replace with an actual image URL */
+    background-color: #021137;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,9 +28,9 @@
     padding: 30px;
     width: 90%;
     max-width: 400px;
-    border: #0056b3 solid 2px;
+    border: #000000 solid 2px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(5, 49, 225, 0.87);
+    box-shadow: 0 4px 8px rgba(0, 1, 6, 0.87);
     text-align: center;
   }
   
