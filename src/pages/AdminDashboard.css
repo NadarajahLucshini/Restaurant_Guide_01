@@ -1,0 +1,104 @@
+/* src/pages/AdminDashboard.css */
+
+.admin-dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .restaurant-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .restaurant-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #444;
+  }
+  
+  .restaurant-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .restaurant-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .restaurant-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .restaurant-list {
+    margin-top: 20px;
+  }
+  
+  .restaurant-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .restaurant-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-item h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .restaurant-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .restaurant-item button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .restaurant-item button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .restaurant-item button:last-child {
+    background-color: #ffa500;
+  }
+  
+  .restaurant-item button:last-child:hover {
+    background-color: #ff7f00;
+  }
+  
