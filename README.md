@@ -1,6 +1,4 @@
-Here's a sample `README.md` file based on your Restaurant Guide project:
 
-```markdown
 # Restaurant Guide
 
 The **Restaurant Guide** is a web application designed to provide users with a platform to explore restaurants across different countries. It allows users to view restaurant details, browse by country, and more. This project is built using **Node.js**, **Express**, **MongoDB**, and **React** with JWT-based authentication.
